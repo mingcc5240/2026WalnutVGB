@@ -140,12 +140,12 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\minigb_apu.c" />
-    <ClCompile Include="..\..\walnut_dll.cpp" />
+    <ClCompile Include="minigb_apu.c" />
+    <ClCompile Include="walnut_dll.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\minigb_apu.h" />
-    <ClInclude Include="..\..\walnut_cgb.h" />
+    <ClInclude Include="minigb_apu.h" />
+    <ClInclude Include="walnut_cgb.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
