@@ -1,0 +1,9 @@
+def
+LIBRARY
+EXPORTS
+    GB_Init
+    GB_RunFrame
+    GB_SetJoypad
+    GB_GetFrameBufferPtr
+    GB_Reset
+    GB_Cleanup
